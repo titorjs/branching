@@ -1,7 +1,11 @@
 public class Main {
     public static void main(String[] args) {
+        System.out.println("***************");
+        System.out.println("* JAVA PROJECT *");
+        System.out.println("***************");
+
         Despedida despedida = new Despedida();
         System.out.println(despedida.generarDespedida("Mundo"));
-        System.out.println("Versión 1.0.1");
+        System.out.println("Versión 1.1.0");
     }
 }
