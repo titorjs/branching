@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Initial main");
+        Despedida despedida = new Despedida();
+        System.out.println(despedida.generarDespedida("Mundo"));
+        System.out.println("Versión 1.0.0");
     }
 }
