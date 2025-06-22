@@ -6,6 +6,6 @@ public class Main {
 
         Despedida despedida = new Despedida();
         System.out.println(despedida.generarDespedida("Mundo"));
-        System.out.println("Versión 1.0.1");
+        System.out.println("Versión 1.1.0");
     }
 }
